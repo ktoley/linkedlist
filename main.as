@@ -26,14 +26,14 @@
 			//trace(n1.get_next_node().get_next_node().get_node_data());
 			var counter = 0;
 			var cursor:Node = n1;
-			while (cursor != null && counter < 4)
+			while (cursor != null && counter < 8)
 			{
 				trace(cursor.get_node_data() + '  ' + cursor.isHead);
 				if (cursor.isHead)
 				{
 
 					counter++;
-					trace('counter ' + counter);
+				//	trace('counter ' + counter);
 				}
 				cursor = cursor.get_next_node();
 
