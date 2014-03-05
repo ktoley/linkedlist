@@ -32,7 +32,7 @@
 						
 					} 
 						cursor = cursor.previous_node;
-						//trace('lookback');
+						trace('lookback');
 					
 				}
 			//}
