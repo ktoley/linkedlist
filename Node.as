@@ -26,13 +26,13 @@
 			//if(n.next_node == null){
 				var cursor:Node = n;
 				while (cursor.previous_node != null) {
-					trace('push ' + cursor.previous_node.isHead);
+					//trace('push ' + cursor.previous_node.isHead);
 					if (cursor.previous_node.isHead){
 						n.next_node = cursor.previous_node;
 						
 					} 
 						cursor = cursor.previous_node;
-						trace('lookback');
+						//trace('lookback');
 					
 				}
 			//}
